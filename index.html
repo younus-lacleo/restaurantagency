@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorBoost Agency | Restaurant Marketing That Sells</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span class="flame">&#x1F525;</span>
+            </div>
+            <div class="preloader-text">FlavorBoost</div>
+            <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">&#x1F525;</span>
+                <span class="logo-text">Flavor<span class="logo-accent">Boost</span></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#blog" class="nav-link">Insights</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-cta">Get Started <span class="arrow">&rarr;</span></a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge reveal-up">
+                <span class="badge-dot"></span>
+                #1 Restaurant Marketing Agency
+            </div>
+            <h1 class="hero-title">
+                <span class="reveal-up" style="--delay: 0.1s">We Make</span>
+                <span class="reveal-up hero-title-highlight" style="--delay: 0.2s">Restaurants</span>
+                <span class="reveal-up" style="--delay: 0.3s">Irresistible</span>
+            </h1>
+            <p class="hero-subtitle reveal-up" style="--delay: 0.4s">
+                From empty tables to waitlists. We blend mouthwatering visuals,
+                razor-sharp digital strategy, and local marketing mastery to pack
+                your restaurant every single night.
+            </p>
+            <div class="hero-ctas reveal-up" style="--delay: 0.5s">
+                <a href="#contact" class="btn btn-primary btn-glow">
+                    <span>Book Free Strategy Call</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#work" class="btn btn-secondary">
+                    <span class="play-icon">&#9654;</span>
+                    See Our Results
+                </a>
+            </div>
+            <div class="hero-stats reveal-up" style="--delay: 0.6s">
+                <div class="stat">
+                    <span class="stat-number" data-count="500">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Restaurants Served</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="340">0</span><span class="stat-percent">%</span>
+                    <span class="stat-label">Avg. Revenue Growth</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="12">0</span><span class="stat-plus">M+</span>
+                    <span class="stat-label">Customers Reached</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image-wrapper reveal-up" style="--delay: 0.3s">
+            <div class="hero-image-card">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Restaurant interior" class="hero-img">
+                <div class="hero-image-overlay"></div>
+                <div class="floating-card card-1">
+                    <span class="fc-icon">&#x1F4C8;</span>
+                    <div>
+                        <span class="fc-value">+247%</span>
+                        <span class="fc-label">Online Orders</span>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <span class="fc-icon">&#x2B50;</span>
+                    <div>
+                        <span class="fc-value">4.9 Stars</span>
+                        <span class="fc-label">Google Rating</span>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <span class="fc-icon">&#x1F4F1;</span>
+                    <div>
+                        <span class="fc-value">85K</span>
+                        <span class="fc-label">Followers Gained</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-track">
+                <span>Website Design</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Food Photography</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Google Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Social Media</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Yelp Optimization</span><span class="marquee-dot">&#x25CF;</span>
+                <span>TikTok Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Instagram Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Influencer Marketing</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Brand Strategy</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Reputation Management</span><span class="marquee-dot">&#x25CF;</span>
+                <span>DoorDash Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>UberEats Listing</span><span class="marquee-dot">&#x25CF;</span>
+                <!-- Duplicate for seamless loop -->
+                <span>Website Design</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Food Photography</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Google Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Social Media</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Yelp Optimization</span><span class="marquee-dot">&#x25CF;</span>
+                <span>TikTok Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Instagram Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Influencer Marketing</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Brand Strategy</span><span class="marquee-dot">&#x25CF;</span>
+                <span>Reputation Management</span><span class="marquee-dot">&#x25CF;</span>
+                <span>DoorDash Ads</span><span class="marquee-dot">&#x25CF;</span>
+                <span>UberEats Listing</span><span class="marquee-dot">&#x25CF;</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">What We Do</span>
+                <h2 class="section-title reveal-up">
+                    Every Tool Your Restaurant<br>
+                    <span class="gradient-text">Needs to Dominate</span>
+                </h2>
+                <p class="section-desc reveal-up">
+                    We don't do generic marketing. Every strategy is custom-built for the restaurant
+                    industry, from your menu to your neighborhood.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F310;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Website Development</h3>
+                    <p class="service-desc">Stunning, fast-loading restaurant websites with online ordering, reservation systems, and menus that make mouths water. Mobile-first design that converts visitors into diners.</p>
+                    <ul class="service-features">
+                        <li>Custom responsive design</li>
+                        <li>Online ordering integration</li>
+                        <li>Menu management system</li>
+                        <li>Reservation booking</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F4F8;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Food Photo Editing</h3>
+                    <p class="service-desc">Professional food photography editing that makes every dish look like a masterpiece. Color correction, retouching, and styling that triggers instant cravings.</p>
+                    <ul class="service-features">
+                        <li>Professional color grading</li>
+                        <li>Menu photo enhancement</li>
+                        <li>Social media-ready formats</li>
+                        <li>360&deg; product shots</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F4CD;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Local Business Listings</h3>
+                    <p class="service-desc">Dominate local search results. We optimize and manage your presence across Google Business Profile, Apple Maps, Bing Places, and 60+ directories.</p>
+                    <ul class="service-features">
+                        <li>Google Business optimization</li>
+                        <li>NAP consistency audit</li>
+                        <li>60+ directory submissions</li>
+                        <li>Local citation building</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x2B50;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Reputation Management</h3>
+                    <p class="service-desc">Turn reviews into revenue. We monitor, respond to, and strategically grow your online reputation across Google, Yelp, TripAdvisor, and more.</p>
+                    <ul class="service-features">
+                        <li>Review monitoring & alerts</li>
+                        <li>Professional response drafting</li>
+                        <li>Review generation campaigns</li>
+                        <li>Negative review mitigation</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F3AF;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Local Ads & Radius Targeting</h3>
+                    <p class="service-desc">Hyper-targeted ads that reach hungry customers within miles of your location. Google Ads, Facebook, and Instagram campaigns with precise geo-targeting.</p>
+                    <ul class="service-features">
+                        <li>Geo-fenced ad campaigns</li>
+                        <li>Radius targeting (1-25 mi)</li>
+                        <li>Competitor conquest ads</li>
+                        <li>Daypart bid optimization</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F50D;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Search Listing Optimization</h3>
+                    <p class="service-desc">Rank #1 when locals search "best restaurants near me." Full SEO strategy including keyword research, on-page optimization, and local search dominance.</p>
+                    <ul class="service-features">
+                        <li>Local SEO strategy</li>
+                        <li>Google Maps pack ranking</li>
+                        <li>Keyword-optimized content</li>
+                        <li>Schema markup & rich results</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F3A8;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Brand Strategy</h3>
+                    <p class="service-desc">Build a restaurant brand that people fall in love with. From logo design to brand voice, we create cohesive identities that stand out in a crowded market.</p>
+                    <ul class="service-features">
+                        <li>Brand identity design</li>
+                        <li>Menu & packaging design</li>
+                        <li>Brand voice & messaging</li>
+                        <li>Visual style guidelines</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F4F1;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Social Media Management</h3>
+                    <p class="service-desc">Scroll-stopping content that builds a loyal foodie community. We handle everything from content creation to community management across all platforms.</p>
+                    <ul class="service-features">
+                        <li>Content calendar & creation</li>
+                        <li>Instagram & Facebook management</li>
+                        <li>TikTok content strategy</li>
+                        <li>Community engagement</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F37D;&#xFE0F;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Yelp & Google Listings</h3>
+                    <p class="service-desc">Maximize your presence where customers actually search. Premium Yelp page optimization, Google Business management, and review strategy that drives foot traffic.</p>
+                    <ul class="service-features">
+                        <li>Yelp profile optimization</li>
+                        <li>Google Business management</li>
+                        <li>Photo & menu updates</li>
+                        <li>Q&A management</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 10 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F4E2;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Instagram & TikTok Ads</h3>
+                    <p class="service-desc">Viral-worthy ad campaigns that put your food in front of millions. Reels, Stories, and TikTok ads designed specifically for the food industry.</p>
+                    <ul class="service-features">
+                        <li>Reels & Stories ad creation</li>
+                        <li>TikTok video ad production</li>
+                        <li>Lookalike audience targeting</li>
+                        <li>A/B creative testing</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 11 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F6F5;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Delivery Platform Optimization</h3>
+                    <p class="service-desc">Own the delivery game. We optimize your listings and run sponsored ads on DoorDash, UberEats, Grubhub, and Postmates to maximize delivery revenue.</p>
+                    <ul class="service-features">
+                        <li>DoorDash & UberEats listing</li>
+                        <li>Sponsored placement ads</li>
+                        <li>Menu pricing strategy</li>
+                        <li>Photography for platforms</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+
+                <!-- Service 12 -->
+                <div class="service-card reveal-up" data-tilt>
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon">&#x1F31F;</div>
+                        <div class="service-icon-bg"></div>
+                    </div>
+                    <h3 class="service-title">Influencer Marketing</h3>
+                    <p class="service-desc">Partner with food influencers who move the needle. We identify, negotiate, and manage influencer campaigns that drive real customers through your doors.</p>
+                    <ul class="service-features">
+                        <li>Influencer matchmaking</li>
+                        <li>Campaign strategy & management</li>
+                        <li>Content rights & usage</li>
+                        <li>ROI tracking & reporting</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Learn More <span>&rarr;</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">Why FlavorBoost</span>
+                <h2 class="section-title reveal-up">
+                    We Don't Just Market.<br>
+                    <span class="gradient-text">We Transform Restaurants.</span>
+                </h2>
+            </div>
+
+            <div class="why-grid">
+                <div class="why-card reveal-up">
+                    <div class="why-card-visual">
+                        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&q=80" alt="Restaurant marketing">
+                        <div class="why-card-number">01</div>
+                    </div>
+                    <h3>Restaurant-Only Focus</h3>
+                    <p>We don't work with dentists, lawyers, or gyms. 100% of our expertise, tools, and strategies are built exclusively for the food & beverage industry.</p>
+                </div>
+
+                <div class="why-card reveal-up">
+                    <div class="why-card-visual">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Data analytics">
+                        <div class="why-card-number">02</div>
+                    </div>
+                    <h3>Data-Driven Results</h3>
+                    <p>Every decision backed by real-time analytics. We track foot traffic, online orders, review sentiment, and ad ROI so you see exactly where every dollar goes.</p>
+                </div>
+
+                <div class="why-card reveal-up">
+                    <div class="why-card-visual">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80" alt="Creative team">
+                        <div class="why-card-number">03</div>
+                    </div>
+                    <h3>Full-Stack Creative Team</h3>
+                    <p>Photographers, designers, copywriters, ad strategists, and SEO specialists all under one roof. No outsourcing, no delays, just seamless execution.</p>
+                </div>
+
+                <div class="why-card reveal-up">
+                    <div class="why-card-visual">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Packed restaurant">
+                        <div class="why-card-number">04</div>
+                    </div>
+                    <h3>We Fill Seats, Period</h3>
+                    <p>Impressions and clicks are nice, but butts in seats pay the bills. Our strategies are laser-focused on driving real customers through your doors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">How It Works</span>
+                <h2 class="section-title reveal-up">
+                    From Zero to Fully Booked<br>
+                    <span class="gradient-text">In 4 Simple Steps</span>
+                </h2>
+            </div>
+
+            <div class="process-timeline">
+                <div class="process-line"></div>
+
+                <div class="process-step reveal-up">
+                    <div class="process-number">01</div>
+                    <div class="process-content">
+                        <h3>Discovery & Audit</h3>
+                        <p>We deep-dive into your restaurant, competitors, local market, and online presence. Every strategy starts with data, not guesswork.</p>
+                    </div>
+                    <div class="process-icon-side">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80" alt="Analytics dashboard">
+                    </div>
+                </div>
+
+                <div class="process-step reveal-up">
+                    <div class="process-number">02</div>
+                    <div class="process-content">
+                        <h3>Custom Strategy</h3>
+                        <p>We build a tailored marketing roadmap covering digital ads, social media, SEO, reputation, and delivery platform optimization.</p>
+                    </div>
+                    <div class="process-icon-side">
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&q=80" alt="Strategy planning">
+                    </div>
+                </div>
+
+                <div class="process-step reveal-up">
+                    <div class="process-number">03</div>
+                    <div class="process-content">
+                        <h3>Launch & Execute</h3>
+                        <p>Our team activates campaigns across all channels simultaneously. Ads go live, content starts posting, listings get optimized.</p>
+                    </div>
+                    <div class="process-icon-side">
+                        <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=400&q=80" alt="Campaign launch">
+                    </div>
+                </div>
+
+                <div class="process-step reveal-up">
+                    <div class="process-number">04</div>
+                    <div class="process-content">
+                        <h3>Optimize & Scale</h3>
+                        <p>We analyze performance weekly, A/B test everything, and continuously refine to maximize your ROI. Growth never stops.</p>
+                    </div>
+                    <div class="process-icon-side">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80" alt="Growth chart">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section class="platforms">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">Platforms We Master</span>
+                <h2 class="section-title reveal-up">
+                    Your Restaurant.<br>
+                    <span class="gradient-text">Everywhere That Matters.</span>
+                </h2>
+            </div>
+
+            <div class="platforms-grid reveal-up">
+                <div class="platform-item">
+                    <div class="platform-logo">G</div>
+                    <span>Google Ads</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);">IG</div>
+                    <span>Instagram</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #000;">TT</div>
+                    <span>TikTok</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #1877f2;">FB</div>
+                    <span>Facebook</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #d32323;">Y!</div>
+                    <span>Yelp</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #ff3008;">DD</div>
+                    <span>DoorDash</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #06c167;">UE</div>
+                    <span>UberEats</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #f63440;">GH</div>
+                    <span>Grubhub</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #34a853;">GB</div>
+                    <span>Google Business</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo" style="background: #00b14f;">TA</div>
+                    <span>TripAdvisor</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">Testimonials</span>
+                <h2 class="section-title reveal-up">
+                    Restaurant Owners<br>
+                    <span class="gradient-text">Love Us</span>
+                </h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal-up">
+                    <div class="testimonial-stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>
+                    <p class="testimonial-text">"FlavorBoost transformed our online presence completely. We went from 20 covers a night to a 2-week waitlist. Their Google Ads targeting is pure magic."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Marco R." class="testimonial-avatar">
+                        <div>
+                            <span class="testimonial-name">Marco R.</span>
+                            <span class="testimonial-role">Restaurant Owner, Los Angeles</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal-up">
+                    <div class="testimonial-stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>
+                    <p class="testimonial-text">"Our delivery revenue tripled in 2 months. The food photography alone was worth the investment. Every dish looks absolutely stunning online now."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Sarah K." class="testimonial-avatar">
+                        <div>
+                            <span class="testimonial-name">Sarah K.</span>
+                            <span class="testimonial-role">Restaurant Owner, New York</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal-up">
+                    <div class="testimonial-stars">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605;</div>
+                    <p class="testimonial-text">"The TikTok campaign they created went viral - 3 million views on our signature dish. We had lines around the block for weeks. Absolute game-changer."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Jake M." class="testimonial-avatar">
+                        <div>
+                            <span class="testimonial-name">Jake M.</span>
+                            <span class="testimonial-role">Restaurant Owner, Chicago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog / Insights Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal-up">Restaurant Marketing Insights</span>
+                <h2 class="section-title reveal-up">
+                    Expert Tips to<br>
+                    <span class="gradient-text">Grow Your Restaurant</span>
+                </h2>
+                <p class="section-desc reveal-up">Free strategies, guides, and industry insights from our team of restaurant marketing experts.</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Article 1 - Featured Large -->
+                <div class="blog-card blog-card-featured reveal-up" data-article="1">
+                    <div class="blog-card-img">
+                        <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80" alt="Instagram food marketing">
+                        <div class="blog-card-badge">Featured Guide</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Social Media</span>
+                            <span class="blog-date">10 min read</span>
+                        </div>
+                        <h3>How to Use Instagram to Promote a New Restaurant in 2026</h3>
+                        <p>From Reels strategy to hashtag research, story highlights to influencer collabs &mdash; the complete playbook for turning your Instagram into a reservation machine. We break down the exact content calendar that took a new restaurant from 0 to 15K followers in 90 days.</p>
+                        <div class="blog-topics">
+                            <span>Reels Strategy</span>
+                            <span>Content Calendar</span>
+                            <span>Hashtag Research</span>
+                            <span>Story Highlights</span>
+                        </div>
+                        <a href="#" class="blog-read-more">Read Full Guide <span>&rarr;</span></a>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="blog-card reveal-up" data-article="2">
+                    <div class="blog-card-img">
+                        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=600&q=80" alt="Yelp vs Google comparison">
+                        <div class="blog-card-badge">Comparison</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Local SEO</span>
+                            <span class="blog-date">8 min read</span>
+                        </div>
+                        <h3>Yelp vs. Google Listings: Which Drives More Diners &amp; How to Optimize Both</h3>
+                        <p>We analyzed data from 200+ restaurant listings to settle the debate once and for all. Spoiler: you need both, but the strategy for each is wildly different. Learn the optimization tricks that top-ranked restaurants use.</p>
+                        <div class="blog-topics">
+                            <span>Yelp Tips</span>
+                            <span>Google Business</span>
+                            <span>Review Strategy</span>
+                        </div>
+                        <a href="#" class="blog-read-more">Read Article <span>&rarr;</span></a>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="blog-card reveal-up" data-article="3">
+                    <div class="blog-card-img">
+                        <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=600&q=80" alt="Radius targeting map">
+                        <div class="blog-card-badge">Strategy</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Paid Ads</span>
+                            <span class="blog-date">7 min read</span>
+                        </div>
+                        <h3>Leveraging Radius Targeting: Reach Hungry Customers Within Miles of Your Door</h3>
+                        <p>Stop wasting ad spend on people 30 miles away. Learn how to set up hyper-local Google and Meta ad campaigns that target customers within walking or short driving distance of your restaurant.</p>
+                        <div class="blog-topics">
+                            <span>Geo-Targeting</span>
+                            <span>Google Ads</span>
+                            <span>Meta Ads</span>
+                        </div>
+                        <a href="#" class="blog-read-more">Read Article <span>&rarr;</span></a>
+                    </div>
+                </div>
+
+                <!-- Article 4 -->
+                <div class="blog-card reveal-up" data-article="4">
+                    <div class="blog-card-img">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Restaurant business growth">
+                        <div class="blog-card-badge">Growth</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Business Strategy</span>
+                            <span class="blog-date">12 min read</span>
+                        </div>
+                        <h3>Scaling a Restaurant Business in 6 Months: The Complete Marketing Roadmap</h3>
+                        <p>A month-by-month blueprint for transforming your restaurant from surviving to thriving. Covers brand positioning, digital presence, delivery optimization, and building a loyal customer base that keeps coming back.</p>
+                        <div class="blog-topics">
+                            <span>Month-by-Month Plan</span>
+                            <span>Brand Building</span>
+                            <span>Revenue Growth</span>
+                        </div>
+                        <a href="#" class="blog-read-more">Read Article <span>&rarr;</span></a>
+                    </div>
+                </div>
+
+                <!-- Article 5 -->
+                <div class="blog-card reveal-up" data-article="5">
+                    <div class="blog-card-img">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Food photography">
+                        <div class="blog-card-badge">Visual Marketing</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Photography</span>
+                            <span class="blog-date">6 min read</span>
+                        </div>
+                        <h3>Food Photography Secrets: How to Make Every Dish Look Irresistible Online</h3>
+                        <p>Your food could be amazing, but bad photos are killing your online orders. Discover the lighting tricks, angles, and editing techniques that professional food photographers use to make dishes pop on every platform.</p>
+                        <div class="blog-topics">
+                            <span>Lighting Tips</span>
+                            <span>Phone Photography</span>
+                            <span>Editing Apps</span>
+                        </div>
+                        <a href="#" class="blog-read-more">Read Article <span>&rarr;</span></a>
+                    </div>
+                </div>
+
+                <!-- Article 6 -->
+                <div class="blog-card reveal-up" data-article="6">
+                    <div class="blog-card-img">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Food delivery apps">
+                        <div class="blog-card-badge">Delivery</div>
+                    </div>
+                    <div class="blog-card-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Delivery Platforms</span>
+                            <span class="blog-date">9 min read</span>
+                        </div>
+                        <h3>DoorDash, UberEats &amp; Grubhub: Maximizing Revenue on Food Delivery Platforms</h3>
+                        <p>Delivery apps charge hefty commissions, but they can also be your biggest revenue channel. Learn how to optimize listings, run sponsored ads, price strategically, and turn third-party platforms into profit centers.</p>
+                        <div class="blog-topics">
+                            <span>Listing Optimization</span>
+                            <span>Sponsored Ads</span>
+                            <span>Pricing Strategy</span>
+                        </div>
+                        <a href="#" class="blog-read-more">Read Article <span>&rarr;</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-cta reveal-up">
+                <a href="#" class="btn btn-secondary">View All Articles <span>&rarr;</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-bg-shapes">
+            <div class="cta-shape cta-shape-1"></div>
+            <div class="cta-shape cta-shape-2"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content reveal-up">
+                <h2 class="cta-title">Ready to Fill Every<br><span class="gradient-text">Seat in Your Restaurant?</span></h2>
+                <p class="cta-desc">Join 500+ restaurants that chose to stop guessing and start growing. Your free strategy session is one click away.</p>
+                <a href="#contact" class="btn btn-primary btn-glow btn-large">
+                    <span>Claim Your Free Strategy Call</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info reveal-up">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Cook Up<br><span class="gradient-text">Something Amazing</span></h2>
+                    <p>Book your free 30-minute strategy call. We'll audit your current online presence and show you exactly how to grow.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <span class="cd-icon">&#x1F4DE;</span>
+                            <div>
+                                <span class="cd-label">Call Us</span>
+                                <span class="cd-value">(555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="cd-icon">&#x2709;&#xFE0F;</span>
+                            <div>
+                                <span class="cd-label">Email Us</span>
+                                <span class="cd-value">hello@flavorboost.agency</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="cd-icon">&#x1F4CD;</span>
+                            <div>
+                                <span class="cd-label">Visit Us</span>
+                                <span class="cd-value">123 Marketing Blvd, Suite 400<br>Los Angeles, CA 90001</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="#" class="social-link" aria-label="Instagram">IG</a>
+                        <a href="#" class="social-link" aria-label="TikTok">TT</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">LI</a>
+                        <a href="#" class="social-link" aria-label="Twitter">X</a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal-up" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@restaurant.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="restaurant">Restaurant Name</label>
+                        <input type="text" id="restaurant" name="restaurant" placeholder="Your Restaurant Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">What Do You Need?</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service...</option>
+                            <option>Website Development</option>
+                            <option>Social Media Management</option>
+                            <option>Local Ads & Google Ads</option>
+                            <option>Reputation Management</option>
+                            <option>Delivery Platform Optimization</option>
+                            <option>Influencer Marketing</option>
+                            <option>Full Marketing Package</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Goals</label>
+                        <textarea id="message" name="message" rows="4" placeholder="What are your biggest marketing challenges?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-glow btn-full">
+                        <span>Book Free Strategy Call</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                    <p class="form-note">Free consultation. No obligation. No credit card required.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">&#x1F525;</span>
+                        <span class="logo-text">Flavor<span class="logo-accent">Boost</span></span>
+                    </a>
+                    <p>The #1 marketing agency built exclusively for restaurants. We make restaurants irresistible.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <a href="#services">Website Development</a>
+                    <a href="#services">Social Media Management</a>
+                    <a href="#services">Local Ads & Targeting</a>
+                    <a href="#services">Reputation Management</a>
+                    <a href="#services">Influencer Marketing</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <a href="#why-us">Why Us</a>
+                    <a href="#process">Our Process</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <a href="#">Restaurant Marketing Blog</a>
+                    <a href="#">Free Marketing Audit</a>
+                    <a href="#">ROI Calculator</a>
+                    <a href="#">Industry Reports</a>
+                    <a href="#">Partner Program</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FlavorBoost Agency. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Article Modal -->
+    <div class="article-modal" id="articleModal">
+        <button class="article-close" id="articleClose" aria-label="Close article">&times;</button>
+        <div class="article-modal-inner" id="articleModalInner">
+            <!-- Content injected by JS -->
+        </div>
+    </div>
+
+    <!-- Hidden Article Contents -->
+    <div style="display:none">
+
+        <!-- Article 1 -->
+        <div data-article-content="1">
+            <div class="article-header">
+                <span class="article-badge">Social Media</span>
+                <span class="article-read-time">10 min read</span>
+            </div>
+            <h1 class="article-title">How to Use Instagram to Promote a New Restaurant in 2026</h1>
+            <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1200&q=80" alt="Instagram food marketing" class="article-hero-img">
+            <div class="article-body">
+                <p class="article-lead">Instagram is the number one platform where diners discover new restaurants. With over 2 billion monthly active users and a food-obsessed culture, it is the most powerful free marketing tool available to any restaurant owner today.</p>
+
+                <h2>Set Up Your Profile for Maximum Impact</h2>
+                <p>Before you post a single photo, your Instagram profile needs to work like a landing page. Use your restaurant name as your handle, write a bio that includes your cuisine type, location, and a clear call to action like "Reserve a table" with a link to your booking page. Switch to a Business account to access analytics and ad tools.</p>
+                <div class="article-callout">
+                    <strong>Pro Tip:</strong> Pin your 3 best-performing posts to the top of your grid. These are the first things new visitors see, so make them your most visually stunning dishes or a packed house on a weekend night.
+                </div>
+
+                <h2>Master the Reels Game</h2>
+                <p>Short-form video is where the algorithm is pushing all the reach. Reels get 2-3x more visibility than static posts. Film behind-the-scenes kitchen action, satisfying plating close-ups, or the classic "first bite" reaction. Keep them under 15 seconds for the highest completion rate.</p>
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&q=80" alt="Beautiful food plating" class="article-inline-img">
+                <p>Consistency beats perfection. Post 4-5 Reels per week using trending audio. Your content does not need a production crew; a smartphone with good natural lighting and a steady hand is all you need. The raw, authentic feel actually performs better than overly polished content.</p>
+
+                <h2>Build a Content Calendar That Works</h2>
+                <p>Stop posting randomly. Map out your week with a repeatable content framework. For example: Monday is a menu highlight, Wednesday is a behind-the-scenes kitchen story, Friday is a weekend special promo Reel, and Sunday is a user-generated content reshare from a customer.</p>
+                <div class="article-callout">
+                    <strong>Weekly Framework:</strong> Mon = dish spotlight, Tue = story polls/Q&A, Wed = kitchen BTS, Thu = chef feature, Fri = weekend Reel, Sat = UGC reshare, Sun = rest or plan ahead.
+                </div>
+
+                <h2>Hashtag Strategy That Actually Reaches People</h2>
+                <p>Use a mix of 20-25 hashtags per post. Combine broad ones like #foodie and #restaurantlife with local ones like #LAeats or #NYCfoodscene. Add niche tags relevant to your cuisine like #authenticitalian or #sushilovers. Rotate your hashtag sets every few weeks to avoid being flagged as spam.</p>
+
+                <h2>Collaborate With Local Food Influencers</h2>
+                <p>Invite 2-3 micro-influencers (5K-50K followers) per month for a complimentary tasting in exchange for content. Micro-influencers have higher engagement rates than mega accounts and their followers are usually local, which is exactly who you want. Always negotiate content rights so you can repost their photos and videos.</p>
+
+                <h2>Key Takeaways</h2>
+                <div class="article-takeaway">
+                    <ul>
+                        <li>Switch to a Business profile and optimize your bio with location and booking link</li>
+                        <li>Post 4-5 Reels per week using trending audio and behind-the-scenes content</li>
+                        <li>Follow a weekly content calendar for consistency</li>
+                        <li>Use 20-25 mixed hashtags (broad + local + niche) per post</li>
+                        <li>Partner with 2-3 local micro-influencers monthly</li>
+                        <li>Engage with every comment and DM within 1 hour</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article-footer-cta">
+                <p>Need help executing your Instagram strategy?</p>
+                <a href="#contact" class="btn btn-primary btn-glow article-cta-btn" onclick="document.getElementById('articleModal').classList.remove('active');document.body.style.overflow='';">Book a Free Strategy Call</a>
+            </div>
+        </div>
+
+        <!-- Article 2 -->
+        <div data-article-content="2">
+            <div class="article-header">
+                <span class="article-badge">Local SEO</span>
+                <span class="article-read-time">8 min read</span>
+            </div>
+            <h1 class="article-title">Yelp vs. Google Listings: Which Drives More Diners &amp; How to Optimize Both</h1>
+            <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=1200&q=80" alt="Yelp vs Google comparison" class="article-hero-img">
+            <div class="article-body">
+                <p class="article-lead">The age-old question: should you focus on Yelp or Google? After analyzing data from hundreds of restaurant clients, we can confidently say you need both, but the strategy for each platform is fundamentally different.</p>
+
+                <h2>Google Business Profile: The Discovery Engine</h2>
+                <p>Google is where intent-driven customers find you. When someone searches "Italian restaurant near me," your Google Business Profile is what appears in the Maps pack. This is the single highest-converting traffic source for local restaurants because these people are actively looking to eat right now.</p>
+                <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=900&q=80" alt="Google search analytics" class="article-inline-img">
+                <div class="article-callout">
+                    <strong>Must-Do:</strong> Verify your Google Business Profile, add 50+ high-quality photos, post Google Updates weekly, respond to every review within 24 hours, and make sure your hours, menu link, and phone number are accurate.
+                </div>
+
+                <h2>Yelp: The Trust Builder</h2>
+                <p>Yelp users are researchers. They are comparing restaurants, reading detailed reviews, and looking at specific dish photos before making a decision. A strong Yelp presence builds credibility and social proof. Yelp reviews tend to be more detailed than Google reviews, which helps undecided diners commit.</p>
+                <p>Claim your Yelp Business page, upload professional photos of your best dishes, and make sure your menu is current. Yelp's algorithm rewards businesses that have complete profiles, respond to reviews, and have recent activity.</p>
+
+                <h2>The Head-to-Head Comparison</h2>
+                <div class="article-callout">
+                    <strong>Google Wins:</strong> Higher search volume, Maps integration, direct calls and directions, Google Ads integration, broader reach.<br><br>
+                    <strong>Yelp Wins:</strong> More detailed reviews, stronger among foodie demographics, built-in reservation tools, better for discovery browsing, higher trust signals.
+                </div>
+
+                <h2>Optimization Tips for Both Platforms</h2>
+                <p>For Google, focus on review quantity and recency. Ask every happy customer to leave a Google review. Use keywords naturally in your business description: "authentic wood-fired pizza" performs better than just "pizza restaurant."</p>
+                <p>For Yelp, focus on review quality and photo uploads. Respond to every review, even negative ones, with professionalism and empathy. Upload new photos weekly to keep your listing fresh in Yelp's algorithm.</p>
+
+                <h2>Key Takeaways</h2>
+                <div class="article-takeaway">
+                    <ul>
+                        <li>Google drives high-intent, ready-to-dine customers through search and Maps</li>
+                        <li>Yelp builds trust through detailed reviews and is great for foodies</li>
+                        <li>Optimize Google for keywords, review volume, and weekly Google Posts</li>
+                        <li>Optimize Yelp for photo quality, review responses, and profile completeness</li>
+                        <li>Track which platform drives more calls and directions using built-in analytics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article-footer-cta">
+                <p>Want us to optimize both your Yelp and Google listings?</p>
+                <a href="#contact" class="btn btn-primary btn-glow article-cta-btn" onclick="document.getElementById('articleModal').classList.remove('active');document.body.style.overflow='';">Book a Free Strategy Call</a>
+            </div>
+        </div>
+
+        <!-- Article 3 -->
+        <div data-article-content="3">
+            <div class="article-header">
+                <span class="article-badge">Paid Ads</span>
+                <span class="article-read-time">7 min read</span>
+            </div>
+            <h1 class="article-title">Leveraging Radius Targeting: Reach Hungry Customers Within Miles of Your Door</h1>
+            <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1200&q=80" alt="Radius targeting on map" class="article-hero-img">
+            <div class="article-body">
+                <p class="article-lead">Most restaurant ad campaigns waste money showing ads to people who will never visit. Radius targeting changes that by drawing a virtual circle around your restaurant and only serving ads to people inside that zone.</p>
+
+                <h2>What Is Radius Targeting?</h2>
+                <p>Radius targeting, also called geo-targeting or geo-fencing, lets you define a precise geographic area around your restaurant location. Anyone inside that radius who is searching for food, scrolling social media, or browsing the web becomes a potential ad target. You can set radii as tight as 1 mile or as wide as 25 miles depending on your market.</p>
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80" alt="Digital advertising dashboard" class="article-inline-img">
+
+                <h2>Setting Up Google Ads With Location Targeting</h2>
+                <p>In Google Ads, create a campaign targeting people "in or regularly in" your defined radius. Start with a 5-mile radius for urban areas or 15 miles for suburban locations. Layer on restaurant-related keywords like "dinner near me," "best lunch spots," and your cuisine type. Use ad extensions to show your phone number, address, and current promotions.</p>
+                <div class="article-callout">
+                    <strong>Budget Tip:</strong> Start with $30-50/day and use daypart bidding to increase bids during peak hunger hours: 11AM-1PM for lunch and 5PM-8PM for dinner. This ensures your budget hits when people are most likely to act.
+                </div>
+
+                <h2>Meta (Facebook &amp; Instagram) Geo-Targeting</h2>
+                <p>Meta's ad platform lets you drop a pin on your restaurant and target everyone within a custom radius. Combine this with interest targeting like "foodies," "restaurant goers," or fans of competitor restaurants. Use mouthwatering food video ads in Reels and Stories format, as these consistently outperform static images by 3-5x for restaurant ads.</p>
+
+                <h2>Advanced: Competitor Conquest Strategy</h2>
+                <p>Place a secondary radius around your top competitors' locations. When people are near a competing restaurant, they see your ad with a compelling offer. This is a powerful tactic during peak dining hours and can directly redirect foot traffic your way.</p>
+
+                <h2>Key Takeaways</h2>
+                <div class="article-takeaway">
+                    <ul>
+                        <li>Use 5-mile radius in urban areas, 15 miles in suburban areas</li>
+                        <li>Increase bids during lunch (11AM-1PM) and dinner (5PM-8PM) hours</li>
+                        <li>Video ads outperform static images by 3-5x for restaurants</li>
+                        <li>Layer geo-targeting with food-related interest targeting on Meta</li>
+                        <li>Try competitor conquest by placing radii around competing restaurants</li>
+                        <li>Start with $30-50/day and optimize based on cost-per-visit data</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article-footer-cta">
+                <p>Ready to launch hyper-targeted ads for your restaurant?</p>
+                <a href="#contact" class="btn btn-primary btn-glow article-cta-btn" onclick="document.getElementById('articleModal').classList.remove('active');document.body.style.overflow='';">Book a Free Strategy Call</a>
+            </div>
+        </div>
+
+        <!-- Article 4 -->
+        <div data-article-content="4">
+            <div class="article-header">
+                <span class="article-badge">Business Strategy</span>
+                <span class="article-read-time">12 min read</span>
+            </div>
+            <h1 class="article-title">Scaling a Restaurant Business in 6 Months: The Complete Marketing Roadmap</h1>
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80" alt="Restaurant business growth" class="article-hero-img">
+            <div class="article-body">
+                <p class="article-lead">Scaling a restaurant is not just about cooking great food. It is about building systems that attract new customers consistently while keeping your existing ones coming back. Here is the month-by-month playbook we use with our clients.</p>
+
+                <h2>Month 1: Foundation &amp; Audit</h2>
+                <p>Before spending a single dollar on marketing, audit everything. Photograph every dish professionally. Claim and optimize all online listings (Google, Yelp, TripAdvisor, Apple Maps). Set up a modern, mobile-first website with online ordering. Install tracking for Google Analytics and Meta Pixel so you can measure everything that follows.</p>
+                <div class="article-callout">
+                    <strong>Month 1 Checklist:</strong> Professional photos, website launch, all listings claimed, review response system in place, analytics installed.
+                </div>
+
+                <h2>Month 2: Build Your Digital Presence</h2>
+                <p>Launch your social media strategy with daily Instagram posts and 4-5 Reels per week. Start a Google Ads campaign targeting your local radius. Set up an email list and capture addresses through your website and in-restaurant QR codes. Post your first Google Business updates.</p>
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&q=80" alt="Growth analytics" class="article-inline-img">
+
+                <h2>Month 3: Amplify With Paid Channels</h2>
+                <p>Launch Instagram and Facebook ad campaigns targeting local food enthusiasts. Optimize your DoorDash, UberEats, and Grubhub listings with professional photos and run your first sponsored placement ads. Invite your first batch of micro-influencers for tasting events.</p>
+
+                <h2>Month 4: Reputation &amp; Loyalty</h2>
+                <p>Implement a systematic review generation strategy. Train staff to ask happy customers for Google reviews. Launch a simple loyalty program (digital punch card or points system). Start an email newsletter with weekly specials and exclusive offers for subscribers.</p>
+                <div class="article-callout">
+                    <strong>Goal by Month 4:</strong> 50+ Google reviews with a 4.5+ rating, active loyalty program with 500+ members, consistent social media presence with growing engagement.
+                </div>
+
+                <h2>Month 5: Scale What Works</h2>
+                <p>By now, your analytics will show which channels drive the most customers. Double down on the winners. If Google Ads is bringing 40% of your new customers, increase that budget. If TikTok Reels are going viral, produce more of that content. Cut underperformers ruthlessly.</p>
+
+                <h2>Month 6: Systematize &amp; Expand</h2>
+                <p>Document every process so it runs without you. Create content templates, ad campaign playbooks, and review response scripts. Consider catering, private events, or a second location. Your marketing machine should now be generating a predictable flow of new and returning customers.</p>
+
+                <h2>Key Takeaways</h2>
+                <div class="article-takeaway">
+                    <ul>
+                        <li>Month 1: Audit, photograph everything, claim all listings, build website</li>
+                        <li>Month 2: Launch social media and Google Ads, start email list</li>
+                        <li>Month 3: Add paid social ads, optimize delivery platforms, start influencer campaigns</li>
+                        <li>Month 4: Focus on reviews, launch loyalty program, begin email marketing</li>
+                        <li>Month 5: Analyze data, scale winning channels, cut underperformers</li>
+                        <li>Month 6: Systematize everything and plan expansion</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article-footer-cta">
+                <p>Want a custom 6-month growth roadmap for your restaurant?</p>
+                <a href="#contact" class="btn btn-primary btn-glow article-cta-btn" onclick="document.getElementById('articleModal').classList.remove('active');document.body.style.overflow='';">Book a Free Strategy Call</a>
+            </div>
+        </div>
+
+        <!-- Article 5 -->
+        <div data-article-content="5">
+            <div class="article-header">
+                <span class="article-badge">Photography</span>
+                <span class="article-read-time">6 min read</span>
+            </div>
+            <h1 class="article-title">Food Photography Secrets: How to Make Every Dish Look Irresistible Online</h1>
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80" alt="Beautiful food photography" class="article-hero-img">
+            <div class="article-body">
+                <p class="article-lead">A dish can taste incredible, but if the photo makes it look mediocre, you are losing customers before they ever walk through your door. Great food photography is the difference between a scroll-past and a reservation.</p>
+
+                <h2>Lighting Is Everything</h2>
+                <p>Natural light is your best friend. Shoot near a large window during the day, avoiding direct harsh sunlight. Overcast days actually produce the best food photos because the light is soft and even, eliminating harsh shadows. If you must shoot at night, invest in a simple LED panel with adjustable color temperature.</p>
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80" alt="Restaurant dish with beautiful lighting" class="article-inline-img">
+                <div class="article-callout">
+                    <strong>Lighting Rule:</strong> Always light from the side or slightly behind the dish (called backlighting). Front-on flash makes food look flat and unappetizing. Side light creates depth, texture, and those beautiful highlights on sauces and glazes.
+                </div>
+
+                <h2>Angles That Make Food Pop</h2>
+                <p>Three angles work for 90% of food photography. The overhead flat-lay is perfect for pizzas, bowls, and spread-out platters. The 45-degree angle works best for burgers, sandwiches, and layered dishes where you want to show height. Straight-on at table level is great for drinks, tall desserts, and stacked items.</p>
+
+                <h2>Smartphone Photography Tips</h2>
+                <p>You do not need a DSLR camera. Modern smartphones take incredible food photos with a few tweaks. Use portrait mode for a blurred background effect. Tap the screen to focus on the dish, then slide your finger down slightly to reduce exposure for richer colors. Clean your lens before every shot, as kitchen grease kills sharpness.</p>
+
+                <h2>Editing That Enhances Without Overdoing</h2>
+                <p>Subtle editing makes a huge difference. Increase warmth slightly to make food look more appetizing (cool tones make food look unappetizing). Boost saturation by 10-15%, increase contrast slightly, and sharpen the image. Apps like Lightroom Mobile, Snapseed, and VSCO are all free and powerful enough for professional results.</p>
+                <div class="article-callout">
+                    <strong>Quick Edit Formula:</strong> Warmth +10, Saturation +12, Contrast +8, Clarity +15, Sharpen +20. This simple recipe works for almost any food photo and takes 30 seconds.
+                </div>
+
+                <h2>Key Takeaways</h2>
+                <div class="article-takeaway">
+                    <ul>
+                        <li>Shoot with natural side light or backlight, never front-on flash</li>
+                        <li>Use overhead for flat dishes, 45-degree for tall dishes, straight-on for drinks</li>
+                        <li>Smartphones work great: use portrait mode and clean your lens</li>
+                        <li>Edit with warmth, slight saturation boost, and sharpening</li>
+                        <li>Shoot multiple angles of every dish and pick the best one</li>
+                        <li>Consistency in style across all photos builds brand recognition</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article-footer-cta">
+                <p>Want professional food photography for your restaurant?</p>
+                <a href="#contact" class="btn btn-primary btn-glow article-cta-btn" onclick="document.getElementById('articleModal').classList.remove('active');document.body.style.overflow='';">Book a Free Strategy Call</a>
+            </div>
+        </div>
+
+        <!-- Article 6 -->
+        <div data-article-content="6">
+            <div class="article-header">
+                <span class="article-badge">Delivery Platforms</span>
+                <span class="article-read-time">9 min read</span>
+            </div>
+            <h1 class="article-title">DoorDash, UberEats &amp; Grubhub: Maximizing Revenue on Food Delivery Platforms</h1>
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=80" alt="Food delivery platforms" class="article-hero-img">
+            <div class="article-body">
+                <p class="article-lead">Delivery platforms charge steep commissions, typically 15-30% per order. But when optimized correctly, they can become your highest-margin acquisition channel because customers who discover you on delivery apps often become dine-in regulars.</p>
+
+                <h2>Optimize Your Listing Like a Landing Page</h2>
+                <p>Your delivery listing is often the first impression a customer has of your restaurant. Use professional photos for every menu item because listings with photos get 30% more orders than those without. Write descriptions that trigger cravings: not just "Margherita Pizza" but "Wood-fired Margherita with San Marzano tomatoes, fresh mozzarella, and basil on a crispy Neapolitan crust."</p>
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=900&q=80" alt="Restaurant kitchen" class="article-inline-img">
+                <div class="article-callout">
+                    <strong>Listing Must-Haves:</strong> Professional photos for every item, crave-worthy descriptions, accurate prep times, clear allergen info, and a compelling restaurant description that tells your story.
+                </div>
+
+                <h2>Sponsored Ads: Pay to Play, But Play Smart</h2>
+                <p>All three platforms offer sponsored placement ads that put your restaurant at the top of search results. Start with a small daily budget of $10-20 and focus on peak ordering hours (11:30AM-1:30PM and 5:30PM-8:30PM). Track your return on ad spend (ROAS) and aim for at least a 5:1 ratio, meaning $5 in revenue for every $1 spent.</p>
+
+                <h2>Menu Engineering for Delivery</h2>
+                <p>Your delivery menu should not be identical to your dine-in menu. Remove items that do not travel well. Create delivery-exclusive bundles and combos that increase average order value. Price delivery items 15-20% higher than dine-in to offset commission fees, as most customers expect this and accept it.</p>
+
+                <h2>Convert Delivery Customers to Direct Orders</h2>
+                <p>Include a branded insert card in every delivery order with a QR code linking to your website for direct ordering. Offer a 10-15% discount for ordering directly next time. Over time, this shifts customers from high-commission platforms to your own zero-commission channels.</p>
+                <div class="article-callout">
+                    <strong>Revenue Math:</strong> If 20% of delivery customers convert to direct ordering, and your average order is $35, you save $7-10 per order in commissions. Over 100 orders/month, that is $700-1,000 back in your pocket.
+                </div>
+
+                <h2>Platform-Specific Tips</h2>
+                <p><strong>DoorDash:</strong> Use DashPass promotions to attract high-frequency orderers. Opt into their pickup option to capture zero-commission orders. Keep your prep time accurate to maintain high ratings.</p>
+                <p><strong>UberEats:</strong> Take advantage of their promotional tools like BOGO offers and free delivery promotions. Their algorithm heavily rewards restaurants with fast prep times and high acceptance rates.</p>
+                <p><strong>Grubhub:</strong> Their loyalty program (Grubhub+) drives repeat orders. Participate in their marketing campaigns and seasonal promotions for extra visibility.</p>
+
+                <h2>Key Takeaways</h2>
+                <div class="article-takeaway">
+                    <ul>
+                        <li>Professional photos on every menu item increase orders by 30%</li>
+                        <li>Run sponsored ads during peak hours with a $10-20/day budget</li>
+                        <li>Engineer a delivery-specific menu with bundles and higher pricing</li>
+                        <li>Include branded inserts to convert delivery customers to direct orders</li>
+                        <li>Keep prep times accurate and acceptance rates high to boost algorithm ranking</li>
+                        <li>Aim for 5:1 ROAS on sponsored ad campaigns</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="article-footer-cta">
+                <p>Need help optimizing your delivery platform presence?</p>
+                <a href="#contact" class="btn btn-primary btn-glow article-cta-btn" onclick="document.getElementById('articleModal').classList.remove('active');document.body.style.overflow='';">Book a Free Strategy Call</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
